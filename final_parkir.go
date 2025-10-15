@@ -5,18 +5,18 @@ import (
 	"time"
 )
 
-const maxData = 34
+const maxData = 92
 
 type Officer struct {
 	ID       string
 	Username string
 	Password string
-	Role     string 
+	Role     string
 }
 
 type Vehicle struct {
 	PlateNumber string
-	VehicleType string 
+	VehicleType string
 	EntryTime   time.Time
 	ExitTime    time.Time
 	Fee         float64
@@ -250,6 +250,8 @@ func adminMenu() {
 		}
 	}
 }
+
+// Felix Jordan Siburian Tugas WGTIK
 
 func petugasMenu() {
 	var choice int
