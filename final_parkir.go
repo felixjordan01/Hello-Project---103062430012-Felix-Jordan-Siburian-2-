@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const maxData = 100
+const maxData = 34
 
 type Officer struct {
 	ID       string
